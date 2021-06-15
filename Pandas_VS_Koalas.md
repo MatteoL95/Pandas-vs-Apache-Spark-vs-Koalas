@@ -3,14 +3,12 @@
 <br>
 
 ![alt-text](pandas.png "Pandas")
-
 **_Pandas_**, come già accennato, è una _libreria_ scritta per il linguaggio di programmazione _Python_ che ci permette di manipolare i dati e anche analizzarli in maniera approfondita, semplificando, spesse volte, le operazioni di scrittura del codice che altrimenti sarebbero meno compatte.
 Pandas infatti è considerata _una delle quattro librerie principali dell’ecosistema per il datascience di Python insieme a **NumPy**, **SciKit Learn** e **MatPlotLib**_.
 
-
+<br>
 
 ![alt-text](apache-spark-copertina.png "Apache Spark")
-
 **_Apache Spark_**, o più semplicemente Spark, è un _framework open source_ basato sul paradigma _MapReduce_ e consente ottime prestazioni quando si tratta di caricare dati in larga scala e interrogarli ripetutamente, questo grazie al fatto che è stato studiato e realizzato per un uso orientato al _machine learning_.
 L’API per _Python_ di Spark è **_PySpark_**.
 
@@ -38,12 +36,10 @@ Aiutiamoci nella comprensione delle differenze tra l'utilizzo di _Pandas_ e _PyS
 ```df = df.toDF(‘x’, ‘y’, ‘z1’)```
 ```df = df.withColumn(‘x2’, df.x*df.x)```
 
-
+<br>
 
 ![alt-text](koalas-logo.png "Koalas")
-
 Com'è possibile notare dal codice qui sopra, l'utilizzo di _Pandas_ è molto più intuitivo e veloce a differenza dell'uso di _PySpark_.
-
 Ed è proprio qui che **_Koalas_** prova a “sistemare le cose”: _Koalas_ infatti è un toolkit, annunciato nell’Aprile del 2019, che effettua una sorta di ""porting" di _Pandas_ sulla piattaforma _Spark_, permettendo quindi l’elaborazione di collezioni di dati molto grandi e con un’archiviazione distribuita in modo smart e compatto.
 La svolta apportata da _Koalas_ è quella di poter offrire il medesimo codebase sia per l’utilizzo su _Pandas_ che per l’utilizzo su _PySpark_ senza dover effettuare appunto modifiche al codice (**Nota**: vanno opportunamente modificate le import).
 
@@ -69,4 +65,5 @@ Come visto durante questo breve versus, l'utilizzo della piattaforma _Apache Spa
 A porre rimedio a tutto questo ci pensa _Koalas_ che permette lo switch tra _Pandas_ e _Apache Spark_, bypassando _PySpark_ , e sfruttando il medesimo codice.
 
 Stavolta, ironicamente, potremmo usare per capire meglio, al posto di porzioni di codice, un meme per concludere al meglio il nostro discorso:
+
 ![alt-text](meme_Pandas_Spark_Koalas.png "Meme_Conclusivo")
