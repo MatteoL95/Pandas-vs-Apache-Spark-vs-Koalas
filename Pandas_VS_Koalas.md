@@ -23,18 +23,22 @@ Ma c’è da dire che, come detto all'inizio, _Pandas_ consente una evidente com
 Aiutiamoci nella comprensione delle differenze tra l'utilizzo di _Pandas_ e _PySpark_ con le seguenti porzioni di codice:
 
 **_Pandas_**
-```import pandas as pd```
-```df = pd.read_csv(“my_data.csv)```
-```df.columns = ['x', 'y', 'z1']```
-```df['x2'] ? df.x * df.x```
+```
+import pandas as pd
+df = pd.read_csv(“my_data.csv)
+df.columns = ['x', 'y', 'z1']
+df['x2'] ? df.x * df.x
+```
 
 
 **_PySpark_**
-`````df = (spark.read.option(“inferSchema”, “true”).`````
-`````option(“comment”, True).`````
-`````csv(“my_data.csv”))`````
-```df = df.toDF(‘x’, ‘y’, ‘z1’)```
-```df = df.withColumn(‘x2’, df.x*df.x)```
+```
+df = (spark.read.option(“inferSchema”, “true”)
+     .option(“comment”, True)
+     .csv(“my_data.csv”))
+df = df.toDF(‘x’, ‘y’, ‘z1’)
+df = df.withColumn(‘x2’, df.x*df.x)
+```
 
 <br>
 
@@ -46,16 +50,20 @@ La svolta apportata da _Koalas_ è quella di poter offrire il medesimo codebase 
 Anche stavolta sfruttiamo due porzioni di codice per capire meglio quanto appena detto:
 
 **_Pandas_**
-```import pandas as pd```
-```df = pd.read_csv(“my_data.csv)```
-```df.columns = ['x', 'y', 'z1']```
-```df['x2'] ? df.x * df.x```
+```
+import pandas as pd
+df = pd.read_csv(“my_data.csv)
+df.columns = ['x', 'y', 'z1']
+df['x2'] ? df.x * df.x
+```
 
 **_Koalas_**
-```import databricks.koalas as ks```
-```df = ks.read_csv(“my_data.csv)```
-```df.columns = ['x', 'y', 'z1']```
-```df['x2'] ? df.x * df.x```
+```
+import databricks.koalas as ks
+df = ks.read_csv(“my_data.csv)
+df.columns = ['x', 'y', 'z1']
+df['x2'] ? df.x * df.x
+```
 
 Come si può notare, a meno degli import per ovvi motivi differenti, dato che stiamo usando due librerie diverse, il codice è esattamente il medesimo.
 
