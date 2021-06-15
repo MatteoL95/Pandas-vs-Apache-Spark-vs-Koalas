@@ -8,7 +8,7 @@ Pandas infatti è considerata _una delle quattro librerie principali dell’ecos
 
 <br>
 
-![alt-text](apache-spark-copertina.png "Apache Spark")
+![alt-text](apache-spark-copertina.png "Apache Spark") <br>
 **_Apache Spark_**, o più semplicemente Spark, è un _framework open source_ basato sul paradigma _MapReduce_ e consente ottime prestazioni quando si tratta di caricare dati in larga scala e interrogarli ripetutamente, questo grazie al fatto che è stato studiato e realizzato per un uso orientato al _machine learning_.
 L’API per _Python_ di Spark è **_PySpark_**.
 
@@ -38,7 +38,7 @@ Aiutiamoci nella comprensione delle differenze tra l'utilizzo di _Pandas_ e _PyS
 
 <br>
 
-![alt-text](koalas-logo.png "Koalas")
+![alt-text](koalas-logo.png "Koalas")  <br>
 Com'è possibile notare dal codice qui sopra, l'utilizzo di _Pandas_ è molto più intuitivo e veloce a differenza dell'uso di _PySpark_.
 Ed è proprio qui che **_Koalas_** prova a “sistemare le cose”: _Koalas_ infatti è un toolkit, annunciato nell’Aprile del 2019, che effettua una sorta di ""porting" di _Pandas_ sulla piattaforma _Spark_, permettendo quindi l’elaborazione di collezioni di dati molto grandi e con un’archiviazione distribuita in modo smart e compatto.
 La svolta apportata da _Koalas_ è quella di poter offrire il medesimo codebase sia per l’utilizzo su _Pandas_ che per l’utilizzo su _PySpark_ senza dover effettuare appunto modifiche al codice (**Nota**: vanno opportunamente modificate le import).
