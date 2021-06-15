@@ -1,6 +1,6 @@
 ### _Pandas vs Apache Spark? La soluzione è **Koalas**!_
 
-
+<br>
 ![alt-text](pandas.png "Pandas")
 
 **_Pandas_**, come già accennato, è una _libreria_ scritta per il linguaggio di programmazione _Python_ che ci permette di manipolare i dati e anche analizzarli in maniera approfondita, semplificando, spesse volte, le operazioni di scrittura del codice che altrimenti sarebbero meno compatte.
@@ -8,7 +8,7 @@ Pandas infatti è considerata _una delle quattro librerie principali dell’ecos
 
 
 
-![alt-text](C:\Users\Matteuzzo\Documents\GitHub\Pandas-vs-Apache-Spark-vs-Koalas\apache-spark-copertina.png "Apache Spark")
+![alt-text](apache-spark-copertina.png "Apache Spark")
 
 **_Apache Spark_**, o più semplicemente Spark, è un _framework open source_ basato sul paradigma _MapReduce_ e consente ottime prestazioni quando si tratta di caricare dati in larga scala e interrogarli ripetutamente, questo grazie al fatto che è stato studiato e realizzato per un uso orientato al _machine learning_.
 L’API per _Python_ di Spark è **_PySpark_**.
@@ -39,7 +39,7 @@ Aiutiamoci nella comprensione delle differenze tra l'utilizzo di _Pandas_ e _PyS
 
 
 
-![alt-text](C:\Users\Matteuzzo\Documents\GitHub\Pandas-vs-Apache-Spark-vs-Koalas\koalas-logo.png "Koalas")
+![alt-text](koalas-logo.png "Koalas")
 
 Com'è possibile notare dal codice qui sopra, l'utilizzo di _Pandas_ è molto più intuitivo e veloce a differenza dell'uso di _PySpark_.
 
@@ -68,4 +68,4 @@ Come visto durante questo breve versus, l'utilizzo della piattaforma _Apache Spa
 A porre rimedio a tutto questo ci pensa _Koalas_ che permette lo switch tra _Pandas_ e _Apache Spark_, bypassando _PySpark_ , e sfruttando il medesimo codice.
 
 Stavolta, ironicamente, potremmo usare per capire meglio, al posto di porzioni di codice, un meme per concludere al meglio il nostro discorso:
-![alt-text](C:\Users\Matteuzzo\Documents\GitHub\Pandas-vs-Apache-Spark-vs-Koalas\meme_Pandas_Spark_Koalas.png "Meme_Conclusivo")
+![alt-text](meme_Pandas_Spark_Koalas.png "Meme_Conclusivo")
