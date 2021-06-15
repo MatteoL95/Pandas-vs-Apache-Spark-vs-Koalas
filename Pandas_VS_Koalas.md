@@ -1,6 +1,7 @@
 ### _Pandas vs Apache Spark? La soluzione è **Koalas**!_
 
 <br>
+
 ![alt-text](pandas.png "Pandas")
 
 **_Pandas_**, come già accennato, è una _libreria_ scritta per il linguaggio di programmazione _Python_ che ci permette di manipolare i dati e anche analizzarli in maniera approfondita, semplificando, spesse volte, le operazioni di scrittura del codice che altrimenti sarebbero meno compatte.
